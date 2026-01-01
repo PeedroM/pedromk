@@ -108,7 +108,7 @@ body {
 .link-card:hover {
     background: var(--card-hover);
     transform: scale(1.02);
-    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .icon-box {
@@ -121,14 +121,27 @@ body {
     justify-content: center;
 }
 
-.icon-box span {
-    font-size: 32px;
+/* Font Awesome icons */
+.icon-box i {
+    font-size: 28px;
 }
 
-.youtube span { color: #dc2626; }
-.tiktok span { color: #000; }
-.facebook span { color: #2563eb; }
-.instagram span { color: #db2777; }
+/* Cores oficiais das redes */
+.youtube i {
+    color: #ff0000;
+}
+
+.tiktok i {
+    color: #000000;
+}
+
+.instagram i {
+    color: #e1306c;
+}
+
+.facebook i {
+    color: #1877f2;
+}
 
 .link-text {
     flex: 1;
@@ -159,7 +172,7 @@ footer {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    padding: 12px 24px;
+    padding: 5px 14px;
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: 999px;
